@@ -38,12 +38,12 @@ skill_groups = {
         "maxLevel": 50
     },
     "foraging": {
-        "exponent": 1.3705117131325855,
+        "exponent": 1.3242204477952235,
         "divider": 259634,
         "maxLevel": 50
     },
     "mining": {
-        "exponent": 1.1579768726405657,
+        "exponent": 1.202948779,
         "divider": 259634,
         "maxLevel": 60
     },
