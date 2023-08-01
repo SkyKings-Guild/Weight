@@ -55,27 +55,27 @@ skill_groups = {
 }
 slayer_groups = {
     "zombie": {
-        "divider": 5000,
-        "modifier": 0.15
+        "divider": 2500,
+        "modifier": 0.25,
     },
     "spider": {
         "divider": 6666.666666666667,
-        "modifier": 0.08
+        "modifier": 0.5,
     },
     "wolf": {
-        "divider": 2000,
-        "modifier": 0.2
+        "divider": 3333.3333333333335,
+        "modifier": 0.5,
     },
     "enderman": {
         "divider": 1176.4705882352941,
-        "modifier": 0.4
+        "modifier": 0.5,
     },
     "blaze": {
         "divider": 909.0909090909091,
-        "modifier": 0.4
+        "modifier": 0.5,
     },
     "vampire": {
         "divider": 24,
-        "modifier": 0.4
+        "modifier": 0.2,
     }
 }
