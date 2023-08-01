@@ -4,6 +4,8 @@ A modified version of [Senither weight][1], kept up-to-date by the SkyKings team
 
 Currently up-to-date with SkyBlock version [0.19.84][2].
 
+This project is in beta. All calculations may be subject to frequent changes.
+
 ## Installation
 
 ### Linux
