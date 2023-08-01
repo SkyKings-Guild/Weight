@@ -64,14 +64,18 @@ def slayer_weight(
 
 
 def skill_weight(
-    skill: Literal["alchemy", "combat", "enchanting", "farming", "fishing", "foraging", "mining", "taming"],
+    skill: Literal[
+        "alchemy", "carpentry", "combat", "enchanting", "farming", "fishing", "foraging", "mining", "taming"
+    ],
     level: float,
     xp: float | int,
 ) -> tuple[float, float]:
     """
     Calculates the weight of a skill.
     :param skill: The skill to calculate.
-    :type skill: Literal["zombie", "spider", "wolf", "enderman", "blaze", "vampire"]
+    :type skill: Literal[
+        "alchemy", "carpentry", "combat", "enchanting", "farming", "fishing", "foraging", "mining", "taming"
+        ]
     :param level: The skill's level, including partial progress.
     :type level: float
     :param xp: The skill's experience.

@@ -12,6 +12,11 @@ skill_groups = {
         "divider": 1103448,
         "maxLevel": 50
     },
+    "carpentry": {
+        "exponent": 0.9537087346626381,
+        "divider": 1103448,
+        "maxLevel": 50
+    },
     "combat": {
         "exponent": 1.1294754560828135,
         "divider": 275862,
@@ -46,7 +51,7 @@ skill_groups = {
         "exponent": 1.0900484437751596,
         "divider": 441379,
         "maxLevel": 50
-    }
+    },
 }
 slayer_groups = {
     "zombie": {
