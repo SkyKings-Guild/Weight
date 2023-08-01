@@ -59,7 +59,7 @@ def slayer_weight(
         return weight, 0
     count_over_max = (xp - xp_cap) / xp_cap
     base = xp_cap / slayerGroup["divider"]
-    return base, count_over_max * slayerGroup["modifier"]
+    return base, count_over_max * base * slayerGroup["modifier"]
 
 
 def skill_weight(
